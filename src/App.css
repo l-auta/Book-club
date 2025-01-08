@@ -99,7 +99,7 @@
     width: 100%;
     font-size: 28px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr  ;
     align-content: space-evenly;
     gap: 120px;
     padding-top: 90px;
@@ -113,6 +113,12 @@
     width: 830px;
     border-radius: 20px;
     margin-right: 0;
+}
+
+.icons{
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    gap: 0px;
 }
 
 .connects p{
