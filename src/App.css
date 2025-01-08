@@ -6,11 +6,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr ;
     align-content: space-evenly;
-    gap: 280px;
+    gap: 220px;
 }
 
 .desc p{
-    font-size: 25px;
+    font-size: 28px;
     z-index: 10;
     text-align: justify;
 }
@@ -37,8 +37,8 @@
     background-color: #f6e8fae1;
     margin: 0px;
     position: relative;
-    padding: 25px;
-    padding-left: 250px;
+    padding: 80px;
+    padding-top: 10px;
 }
 
 .membership{
@@ -68,6 +68,58 @@
 
 .pic img{
     height: 490px;
-    width: 700px;
+    width: 800px;
     border-radius: 20px;
 }
+
+.component-two{
+    padding: 80px;
+
+}
+
+.services img{
+    width: 830px;
+    border-radius: 20px;
+}
+
+.services h3{
+    font-size: 50px;
+    text-align: justify;
+}
+
+.services{
+    font-size: 28px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-content: space-evenly;
+    gap: 120px;
+}
+
+.connects{
+    width: 100%;
+    font-size: 28px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-content: space-evenly;
+    gap: 120px;
+    padding-top: 90px;
+}
+
+.connects h3{
+    font-size: 59px;
+}
+
+.connects img{
+    width: 830px;
+    border-radius: 20px;
+    margin-right: 0;
+}
+
+.connects p{
+    width: 750px;
+}
+
+.text2{
+    padding-top: 80px;
+}
+
