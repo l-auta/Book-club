@@ -6,7 +6,6 @@ function Connects() {
             <div className="text2">
               <h3>Not your average book club</h3>
               <p>Connect with a community that speaks your language - from <b>Python</b> to <b>Typescript</b> and everything in between. Our discussions blend technical depth with practical applications.</p>
-              <br></br>
               <div className="icons">
               <i class="fa-brands fa-github" style={{color: '#6F06A7'}}></i>
               <i class="fa-brands fa-react" style={{color: '#6F06A7'}}></i>

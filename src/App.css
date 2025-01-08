@@ -119,6 +119,7 @@
     display: grid;
     grid-template-columns: 80px 80px 80px;
     gap: 0px;
+    padding-left: 250px;
 }
 
 .connects p{
