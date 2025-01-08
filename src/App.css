@@ -1,0 +1,58 @@
+.icon{
+    font-size: 30px;
+}
+
+.desc{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-content: space-evenly;
+    gap: 280px;
+}
+
+.desc p{
+    font-size: 25px;
+    z-index: 10;
+    text-align: justify;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, #f25fff, #17031b); /* Define the gradient colors */
+    -webkit-background-clip: text; /* For Chrome, Safari, and Opera */
+    background-clip: text; /* For other browsers (might not be supported everywhere) */
+    color: transparent; /* Make the text color transparent so the gradient shows through */
+    font-size: 50px; /* Adjust the font size */
+    font-weight: bold; /* Optional: make the text bold */
+    z-index: 10;
+}
+
+.component-one{
+    background-image: 
+        linear-gradient(0deg, rgba(0, 0, 0, 0.089) 1px, transparent 1px), 
+        linear-gradient(90deg, rgba(0, 0, 0, 0.089) 1px, transparent 1px);
+    
+    background-size: 30px 30px;
+    background-position: 0 0, 0 0;
+    background-repeat: repeat;
+    height: 600px;
+    background-color: #f6e8fae1;
+    margin: 0px;
+    position: relative;
+    padding: 25px;
+    padding-left: 250px;
+}
+
+.membership{
+    font-size: 15px;
+    border: #754171 solid 2px;
+    border-radius: 39px;
+    text-align: center;
+    width: 390px;
+    height: 50px;
+    background-color: #f7defd;
+}
+
+.pic img{
+    height: 490px;
+    width: 700px;
+    border-radius: 20px;
+}
