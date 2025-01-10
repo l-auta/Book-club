@@ -225,3 +225,25 @@
     padding: 80px;
 }
 
+.five{
+    padding: 80px;
+}
+
+.remarks{
+    font-size: 50px;
+    color: #754171;
+    font-weight: 900;
+    text-align: center;
+}
+
+.author{
+    text-align: center;
+    color: #754171;
+}
+
+.stars{
+    text-align: center;
+}
+
+
+
