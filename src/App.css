@@ -141,9 +141,11 @@
     background-position: 0 0, 0 0;
     background-repeat: repeat;
     background-color: #f6e8fae1;
-    margin: 80px;
+    margin: 200px;
     position: relative;
     border-radius: 25px;
+    width: 1300px;
+    align-content: center;
 }
 
 .comp3 h3{
@@ -152,7 +154,7 @@
     justify-content: center;
     text-align: center;
     padding-bottom: 1px;
-    padding-left: 400px;
+    padding-left: 280px;
 }
 
 .journey{
@@ -245,5 +247,39 @@
     text-align: center;
 }
 
+.six{
+    padding: 80px;
+    padding-bottom: 0px;
+    padding-top: 1px;
+    background-image: 
+        linear-gradient(0deg, rgba(0, 0, 0, 0.089) 1px, transparent 1px), 
+        linear-gradient(90deg, rgba(0, 0, 0, 0.089) 1px, transparent 1px);
+    
+    background-size: 30px 30px;
+    background-position: 0 0, 0 0;
+    background-repeat: repeat;
+    background-color: #f6e8fae1;
+    position: relative;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.debug p{
+    font-size: 70px;
+    font-weight: 900;
+    text-align: center;
+    width: 900px;
+    height: 120px;
+    margin-left: 400px;
+}
+
+.debug button{
+    text-align: center;
+    margin-left: 700px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr  20px 30px;
+}
 
 

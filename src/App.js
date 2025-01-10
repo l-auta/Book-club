@@ -4,6 +4,7 @@ import ComponentTwo from './component 2/maincomp';
 import ComponentThree from './component 3/maincomp';
 import ComponentFour from './component 4/maincomp';
 import ComponentFive from './component 5/maincomp';
+import ComponentSix from './component 6/maincomp';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <ComponentThree />
       <ComponentFour />
       <ComponentFive />
+      <ComponentSix />
     </div>
   )
 }
