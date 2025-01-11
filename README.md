@@ -1,3 +1,7 @@
+## Deployments
+
+netlify [for computers](https://tech-bookclub-one.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
