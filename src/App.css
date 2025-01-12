@@ -298,7 +298,7 @@
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 480px) and (min-width: 340px) {
     .icon{
         font-size: 19px;
     }
@@ -307,7 +307,7 @@
         display: flex;            /* Use flexbox layout */
         flex-direction: column;   /* Stack items vertically */
         justify-content: center;
-        gap: 30px;  /* Vertically center the children */
+        gap: 40px;  /* Vertically center the children */
     }
     
     .desc p{
@@ -321,7 +321,7 @@
         -webkit-background-clip: text; /* For Chrome, Safari, and Opera */
         background-clip: text; /* For other browsers (might not be supported everywhere) */
         color: transparent; /* Make the text color transparent so the gradient shows through */
-        font-size: 30px; /* Adjust the font size */
+        font-size: 40px; /* Adjust the font size */
         font-weight: bold; /* Optional: make the text bold */
         z-index: 10;
     }
@@ -335,11 +335,12 @@
         background-size: 100% 100%, 30px 30px, 30px 30px;
         background-position: 0 0, 0 0, 0 0;
         background-repeat: repeat;
-        height: 630px;
+        height: 750px;
         margin: 0px;
         position: relative;
-        padding: 20px;
+        padding: 30px;
         padding-top: 10px;
+        width: 100%;
     }
 
     .membership{
@@ -371,66 +372,237 @@
     }
     
     .pic img{
-        height: 220px;
-        width: 340px;
+        height: 210px;
+        width: 330px;
         border-radius: 20px;
     }
 /* component 2 */
     .component-two{
-        padding: 80px;
+        padding: 20px;
         margin-top: 70px;
     }
     
     .services img{
-        width: 830px;
+        width: 330px;
         border-radius: 20px;
     }
     
     .services h3{
-        font-size: 50px;
+        font-size: 30px;
         text-align: justify;
     }
     
     .services{
-        font-size: 28px;
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        align-content: space-evenly;
-        gap: 120px;
+        display: flex;            /* Use flexbox layout */
+        flex-direction: column;   /* Stack items vertically */
+        justify-content: center;
+        gap: 30px;
+        font-size: 20px;
     }
     
     .connects{
-        width: 100%;
-        font-size: 28px;
-        display: grid;
-        grid-template-columns: 1fr 1fr  ;
-        align-content: space-evenly;
-        gap: 120px;
-        padding-top: 90px;
+        display: flex;            /* Use flexbox layout */
+        flex-direction: column;   /* Stack items vertically */
+        justify-content: center;
+        gap: 30px;
+        font-size: 20px;
+        width: 360px;
     }
     
     .connects h3{
-        font-size: 59px;
+        font-size: 30px;
+    }
+
+    .connects p{
+        text-align: justify;
+        width: 330px;
     }
     
     .connects img{
-        width: 830px;
+        width: 330px;
         border-radius: 20px;
         margin-right: 0;
     }
     
     .icons{
         display: grid;
-        grid-template-columns: 80px 80px 80px;
+        grid-template-columns: 30px 30px 30px;
         gap: 0px;
-        padding-left: 250px;
-    }
-    
-    .connects p{
-        width: 750px;
+        text-align: center;
+        align-items: center;
+        padding-left: 10px;
     }
     
     .text2{
-        padding-top: 80px;
+        padding-top: 1px;
     }
+
+    .comp3{
+        padding: 10px;
+        padding-top: 1px;
+        background-image: 
+            linear-gradient(to bottom right, rgba(243, 240, 245, 0.753), rgba(95, 6, 146, 0.664)),
+            linear-gradient(0deg, rgba(0, 0, 0, 0.37) 1px, transparent 1px), 
+            linear-gradient(90deg, rgba(0, 0, 0, 0.37) 1px, transparent 1px);
+    
+        background-size: 100% 100%, 30px 30px, 30px 30px;
+        background-position: 0 0, 0 0, 0 0;
+        background-repeat: repeat;
+        margin: 6px;
+        margin-top: 130px;
+        position: relative;
+        border-radius: 25px;
+        width: 330px;
+        align-content: center;
+    }
+    
+    .comp3 h3{
+        font-size: 26px;
+        text-align: justify;
+        margin-bottom: 17px;
+        margin-top: 11px;
+        padding-left: 10px;
+    }
+    
+    .journey{
+        display: flex;            /* Use flexbox layout */
+        flex-direction: column;   /* Stack items vertically */
+        justify-content: center;
+        gap: 10px;
+        font-size: 20px;
+    }
+    
+    .four h2{
+        margin-top: 140px;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .starter{
+        font-size: 20px;
+        margin-top: 1px;
+        border-radius: 40px;
+        border: #17031b solid 1px;
+        text-align: center;
+        width: 200px;
+        height: 300px;
+    }
+    
+    .pro{
+        font-size: 20px;
+        border-radius: 40px;
+        border: #17031b solid 1px;
+        text-align: center;
+        width: 200px;
+        height: 300px;
+        background: linear-gradient(135deg, #f25fff, #17031b);
+    }
+    
+    .subscribe-btn{
+        background: #9a24a5c9;
+        font-size: 15px;
+        font-weight: 700;
+        border-radius: 10px;
+        border: solid 1px #17031b;
+        color: #f5e8f7;
+        width: 140px;
+        height: 40px;
+    }
+    
+    .subscribe-btn:hover{
+        background: #9a24a5;
+        color: #f5e8f7;
+        width: 160px;
+    }
+    
+    .subscribe-btn:active{
+        background: #9a24a580;
+        color: #f5e8f7;
+        width: 150px;
+    }
+    
+    .custom{
+        font-size: 20px;
+        border-radius: 40px;
+        border: #17031b solid 1px;
+        text-align: center;
+        margin-top: 20px;
+        width: 200px;
+        height: 300px;
+    }
+    
+    .options{
+        display: flex;            /* Use flexbox layout */
+        flex-direction: column;   /* Stack items vertically */
+        justify-content: center;
+        gap: 30px;
+        font-size: 20px;
+        margin-left: 40px;
+        padding: 10px 40px;
+    }
+    
+    .five{
+        padding: 10px;
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+    
+    .remarks{
+        font-size: 30px;
+        color: #754171;
+        font-weight: 900;
+        text-align: center;
+    }
+    
+    .author{
+        text-align: center;
+        color: #754171;
+    }
+    
+    .stars{
+        text-align: center;
+    }
+
+    .six{
+        padding: 10px;
+        background-image: 
+            /* linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5)), */
+            linear-gradient(0deg, rgba(0, 0, 0, 0.37) 1px, transparent 1px), 
+            linear-gradient(90deg, rgba(0, 0, 0, 0.37) 1px, transparent 1px);
+    
+        background-size:  30px 30px, 30px 30px;
+        background-position: 0 0, 0 0;
+        background-repeat: repeat;
+        background-color: #2b082ed7;
+        position: relative;
+        border-radius: 25px 25px 0px 0px;
+        width: 100%;
+        margin: 20px;
+    }
+    
+    .debug p{
+        font-size: 40px;
+        font-weight: 900;
+        text-align: center;
+        color: #f5e8f7;
+        width: 300px;
+        height: 100px;
+        margin-left: 10px;
+    }
+    
+    .debug button{
+        text-align: center;
+        margin-left: 40px;
+    }
+    
+    .footer{
+        display: grid;
+        grid-template-columns: 290px  30px 40px;
+        color: #f5e8f7;
+    }
+    
+    .footer i{
+        font-size: 18px;
+    }
+    
 }
