@@ -1,6 +1,7 @@
 ## Deployments
 
 netlify [for computers](https://tech-bookclub-one.netlify.app/)
+netlify [for phones](https://tech-bookclub-two.netlify.app/)
 
 # Getting Started with Create React App
 
