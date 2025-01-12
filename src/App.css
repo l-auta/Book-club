@@ -298,3 +298,139 @@
 }
 
 
+@media (max-width: 480px) {
+    .icon{
+        font-size: 19px;
+    }
+
+    .desc{
+        display: flex;            /* Use flexbox layout */
+        flex-direction: column;   /* Stack items vertically */
+        justify-content: center;
+        gap: 30px;  /* Vertically center the children */
+    }
+    
+    .desc p{
+        font-size: 20px;
+        z-index: 10;
+        text-align: justify;
+    }
+    
+    .gradient-text {
+        background: linear-gradient(45deg, #f25fff, #17031b); /* Define the gradient colors */
+        -webkit-background-clip: text; /* For Chrome, Safari, and Opera */
+        background-clip: text; /* For other browsers (might not be supported everywhere) */
+        color: transparent; /* Make the text color transparent so the gradient shows through */
+        font-size: 30px; /* Adjust the font size */
+        font-weight: bold; /* Optional: make the text bold */
+        z-index: 10;
+    }
+    
+    .component-one{
+        background-image: 
+            linear-gradient(to bottom right, rgba(243, 240, 245, 0.753), rgba(95, 6, 146, 0.664)),
+            linear-gradient(0deg, rgba(0, 0, 0, 0.37) 1px, transparent 1px), 
+            linear-gradient(90deg, rgba(0, 0, 0, 0.37) 1px, transparent 1px);
+    
+        background-size: 100% 100%, 30px 30px, 30px 30px;
+        background-position: 0 0, 0 0, 0 0;
+        background-repeat: repeat;
+        height: 630px;
+        margin: 0px;
+        position: relative;
+        padding: 20px;
+        padding-top: 10px;
+    }
+
+    .membership{
+        font-size: 13px;
+        font-weight: 500;
+        color: #17031b;
+        border: #754171 solid 0.3px;
+        border-radius: 10px;
+        text-align: center;
+        margin-left: 40px;
+        width: 250px;
+        height: 40px;
+        background-color: #e2cce7;
+    }
+    
+    .membership:hover{
+        width: 265px;
+        height: 50px;
+        font-size: 18px;
+        box-shadow: 2px 4px#e081e9;
+    }
+    
+    .membership:active{
+        width: 280px;
+        height: 50px;
+        font-size: 19px;
+        background-color: #ebb6e75b;
+        box-shadow: 3px 5px #e081e9;
+    }
+    
+    .pic img{
+        height: 220px;
+        width: 340px;
+        border-radius: 20px;
+    }
+/* component 2 */
+    .component-two{
+        padding: 80px;
+        margin-top: 70px;
+    }
+    
+    .services img{
+        width: 830px;
+        border-radius: 20px;
+    }
+    
+    .services h3{
+        font-size: 50px;
+        text-align: justify;
+    }
+    
+    .services{
+        font-size: 28px;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        align-content: space-evenly;
+        gap: 120px;
+    }
+    
+    .connects{
+        width: 100%;
+        font-size: 28px;
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+        align-content: space-evenly;
+        gap: 120px;
+        padding-top: 90px;
+    }
+    
+    .connects h3{
+        font-size: 59px;
+    }
+    
+    .connects img{
+        width: 830px;
+        border-radius: 20px;
+        margin-right: 0;
+    }
+    
+    .icons{
+        display: grid;
+        grid-template-columns: 80px 80px 80px;
+        gap: 0px;
+        padding-left: 250px;
+    }
+    
+    .connects p{
+        width: 750px;
+    }
+    
+    .text2{
+        padding-top: 80px;
+    }
+}
