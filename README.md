@@ -1,7 +1,11 @@
-## Deployments
+# Tech Book-club Landing Page
 
-netlify [for computers](https://tech-bookclub-one.netlify.app/)
-netlify [for phones](https://tech-bookclub-two.netlify.app/)
+## Description
+
+This project is a static landing page designed for a technology-focused book club. It highlights the club's purpose, activities, and the benefits it offers to its members. The project was developed as a frontend practice exercise, inspired by a challenge from Frontend Mentor, with the goal of improving layout structuring, responsiveness, and UI design skills.
+
+## Screenshot
+![screenshot](./src/assets/screenshot.png)
 
 # Getting Started with Create React App
 
