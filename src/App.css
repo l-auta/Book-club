@@ -298,7 +298,10 @@
 }
 
 
-@media (max-width: 480px) and (min-width: 340px) {
+@media (max-width: 380px) {
+    .app{
+        width: 100%;
+    }
     .icon{
         font-size: 19px;
     }
@@ -406,7 +409,7 @@
         justify-content: center;
         gap: 30px;
         font-size: 20px;
-        width: 360px;
+        width: 100%;
     }
     
     .connects h3{
@@ -452,7 +455,7 @@
         margin-top: 130px;
         position: relative;
         border-radius: 25px;
-        width: 330px;
+        width: 100%;
         align-content: center;
     }
     
@@ -476,6 +479,10 @@
         margin-top: 140px;
         font-size: 40px;
         text-align: center;
+    }
+
+    .four{
+        width: 100%;
     }
     
     .starter{
@@ -576,8 +583,8 @@
         background-color: #2b082ed7;
         position: relative;
         border-radius: 25px 25px 0px 0px;
-        width: 100%;
-        margin: 20px;
+        width: 320px;
+        margin: 10px;
     }
     
     .debug p{
